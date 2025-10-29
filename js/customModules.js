@@ -1,0 +1,22 @@
+// Include Navbar in Index.html
+  fetch("navbar.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("navbar").innerHTML = data;
+  })
+  .catch(error => console.error("Error Handling Navbar : ", error))
+
+
+// Include Banner in Index
+  fetch("banner.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("banner").innerHTML = data;
+  })
+
+// Include Footer to Index.html
+  fetch("footer.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("footer").innerHTML = data;
+  })

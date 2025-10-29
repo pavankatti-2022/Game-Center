@@ -1,0 +1,127 @@
+/* Saira Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer {
+  padding: 3rem 0 2rem;
+  background-color: #1b1b1b;
+  color: #fff;
+}
+
+.footer .container {
+  font-family: "Saira", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  gap: 50px;
+  width: 1400px;
+  max-width: 95%;
+  margin: auto;
+}
+
+
+
+
+.footer .address .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* margin-top: 4rem; */
+}
+
+.footer .address img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer .address h2 {
+  margin-bottom: 1.5rem;
+}
+
+.footer .address .socials {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.footer .address .socials i {
+  font-size: 26px;
+}
+
+
+
+.footer .quick-links ul li{
+  list-style: none;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.footer .legal-links ul li{
+  list-style: none;
+  list-style: none;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+
+
+.footer .feedback-form h2 {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.footer .feedback-form form input,
+.footer .feedback-form form textarea {
+  font-family: "Saira", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  width: 100%;
+  background-color: #303036;
+  border: none;
+  outline: none;
+  padding: 8px 0.8rem;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+.footer .feedback-form form input,
+.footer .feedback-form form textarea {
+  margin-bottom: 1rem;
+}
+
+.footer .feedback-form form input:focus {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.footer .feedback-form form textarea:focus {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer .feedback-form form .submit {
+  border: none; outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgb(0, 148, 0);
+  color: #fff;
+  padding: 5px 25px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  transition: transform 150ms ease-in-out;
+}
+
+.footer .feedback-form form .submit:hover {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer .feedback-form form .submit:active {
+  transform: scale(0.95);
+}
