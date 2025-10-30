@@ -6,11 +6,19 @@
   letter-spacing: 1px;
 }
 
+body {
+  background-color: #f7e0c1;
+}
+
 a {
   text-decoration: none;
   color: #000;
 }
 
+.container {
+  width: 1400px;
+  margin: auto;
+}
 
 
 

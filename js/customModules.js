@@ -20,3 +20,11 @@
   .then(data => {
     document.getElementById("footer").innerHTML = data;
   })
+
+  // Include Controllers to Index.html
+
+  fetch("controllers.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("controllers").innerHTML = data;
+  })
