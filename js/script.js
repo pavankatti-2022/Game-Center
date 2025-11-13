@@ -21,10 +21,20 @@
     document.getElementById("footer").innerHTML = data;
   })
 
-  // Include Controllers to Index.html
-
+// Include Controllers to Index.html
   fetch("controllers.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("controllers").innerHTML = data;
   })
+
+
+  // Scroll to Top
+  const totopbtn = document.getElementById("totop").addEventListener("click", scrollToTop);
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }

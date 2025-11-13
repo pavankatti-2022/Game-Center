@@ -1,40 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Title -->
-  <title>About Us</title>
+    <!-- Title -->
+    <title>About Us</title>
 
-  <!-- Bootstrap Icon cdn -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
+    <!-- Bootstrap Icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-  <!-- Vendor CSS -->
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/about.css">
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <section class="about">
+      <div class="container">
+        <h2>About Gaming Tools</h2>
+        
+        <p class="about-desc">
+          Welcome to GamingTools, your ultimate destination for premium gaming
+          accessories. We're passionate about providing gamers with the best tools
+          to elevate their gaming experience to new heights.
+        </p>
 
 
-</head>
-<body>
+        <!-- Why Choose Us Section -->
 
-  <!-- Navbar -->
-  <div id="navbar"></div>
-  
-  Aubout Us Page
+        <h3 class="reason-title">Why Choose Us</h3>
 
-  <!-- Footer -->
-  <div id="footer"></div>
+        <div class="reason-container">
+
+          <!-- Item 1 -->
+          <div class="reason-item">  
+            <i class="bi bi-controller" class="about-icon"></i>
+            <h3 class="title">Wide Range of Accessories</h3>
+            <p class="description">From controllers to VR headsets, we offer a comprehensive selection for all gaming platforms.</p>  
+          </div>
+
+          <!-- Item 2 -->
+          <div class="reason-item">            
+            <i class="bi bi-bookmark-check" class="about-icon"></i>
+            <h3 class="title">Competitive Pricing</h3>
+            <p class="description">Get the best gaming gear at unbeatable prices, with regular discounts and promotions.</p>         
+          </div>
+
+          <!-- Item 3 -->
+          <div class="reason-item">            
+            <i class="bi bi-truck" class="about-icon"></i>
+            <h3 class="title">Free Shipping</h3>
+            <p class="description">Enjoy free courier services on all orders, making it easy to get your hands on the latest gear.</p>         
+          </div>
+
+          <!-- Item 4 -->
+          <div class="reason-item">            
+            <i class="bi bi-person-lock" class="about-icon"></i>
+            <h3 class="title">Secure Shopping</h3>
+            <p class="description">Shop with confidence using our secure checkout process to protect your information.</p>         
+          </div>
+
+          <!-- Item 5 -->
+          <div class="reason-item">            
+            <i class="bi bi-arrow-left-right" class="about-icon"></i>
+            <h3 class="title">Easy Returns</h3>
+            <p class="description">Hassle-free returns and exchanges to ensure your complete satisfaction with every purchase.</p>         
+          </div>
+
+          <!-- Item 6 -->
+          <div class="reason-item">            
+            <i class="bi bi-headset" class="about-icon"></i>
+            <h3 class="title">Customer Support</h3>
+            <p class="description">Our dedicated team is always ready to assist you with any questions or concerns.</p>         
+          </div>
+
+          <!-- Item 7 -->
+          <div class="reason-item">            
+            <i class="bi bi-star" class="about-icon"></i>
+            <h3 class="title">Product Reviews</h3>
+            <p class="description">Make informed decisions with help from our customer reviews and ratings.</p>         
+          </div>
+
+          <!-- Item 8 -->
+          <div class="reason-item">            
+            <i class="bi bi-question-circle" class="about-icon"></i>
+            <h3 class="title">FAQs Section</h3>
+            <p class="description">Find quick answers to common questions in our comprehensive FAQ section.</p>         
+          </div>
+        </div>
+
+      </div>
+    </section>
 
 
- <!-- Bottom Right Panel -->
-  <div class="bottom-right-panel">
-    <i class="bi bi-arrow-up-short"></i>
-    <!-- <i class="bi bi-chat-left-text"></i> -->  <!-- AI Chatbot Option-->
-  </div>
+    <!-- Footer -->
+    <div id="footer"></div>
 
-  <!-- JAvascript -->
-  <script src="./js/customModules.js"></script>
+    <!-- Bottom Right Panel -->
+    <div class="bottom-right-panel">
+      <i class="bi bi-arrow-up-short" id="totop"></i>
+      <!-- <i class="bi bi-chat-left-text"></i> -->
+      <!-- AI Chatbot Option-->
+    </div>
 
-</body>
+    <!-- JAvascript -->
+    <script src="./js/script.js"></script>
+  </body>
 </html>
