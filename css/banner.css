@@ -19,12 +19,13 @@
   font-size: 62px;
   color: #fff;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 2rem;
 }
 
 .banner .desc {
   font-size: 20px;
   color: #fff;
+  display: block;
 }
 
 .banner .search-bar {

@@ -17,7 +17,7 @@
     <div class="container">
 
       <h1 class="title">Welcome to Gaming Tools</h1>
-      <p class="desc">Your one-stop shop for all gaming accessories.</p>
+      <p class="desc"><span id="typed"></span></p>
 
       
       <div class="search-bar">
@@ -28,6 +28,25 @@
 
 
   </div>
+
+  <!-- Typed.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+
+  <script>
+   document.addEventListener("DOMContentLoaded", () => {
+      var typed = new Typed("#typed", {
+        strings: ["Your ultimate destination for gaming accessories.",
+                  "All your gaming gear in one place.",
+                  "Everything a gamer needs — under one roof.",
+                  "Your complete hub for gaming essentials."],
+        typeSpeed: 50,
+        loop: true,
+        backSpeed: 25,
+        backDelay: 1500
+      })
+
+    })    
+  </script>
   
 </body>
 </html>
