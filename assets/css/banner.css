@@ -1,6 +1,6 @@
 .banner {
   min-height: 100vh;
-  background-image: url("../images/banner.jpg");
+  background-image: url("/assets/img/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -19,13 +19,12 @@
   font-size: 62px;
   color: #fff;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: 10px;
 }
 
 .banner .desc {
   font-size: 20px;
   color: #fff;
-  display: block;
 }
 
 .banner .search-bar {
