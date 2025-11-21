@@ -43,11 +43,9 @@ section {
 .bottom-right-panel i {
   border: 1px solid rgba(0, 0, 0, 0.3);
   font-size: 2rem;
-  color: green;
+  background-color: green;
   padding-inline: 8px;
-  border: 1px solid green;
   border-radius: 5px;
-  transition: all 150ms ease-in-out;
   cursor: pointer;
 }
 

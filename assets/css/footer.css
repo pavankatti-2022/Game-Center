@@ -109,11 +109,12 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-color: rgb(0, 148, 0);
   color: #fff;
-  padding: 5px 25px;
+  padding: 8px 18px;
   display: block;
   margin: auto;
   cursor: pointer;
   transition: transform 150ms ease-in-out;
+  border-radius: 5px;
 }
 
 .footer .feedback-form form .submit:hover {
@@ -125,11 +126,21 @@
 }
 
 .footer-lower {
+  position:relative;
   padding: 10px 0;
   background-color: #2c2c2c;
-  border: 1px solid;
-  border-top-color: #e96364;
   text-align: center;
   color: #fff;
   font-size: 0.8em;
+}
+
+.footer-lower::before {
+  content: '';
+  position: absolute;
+  top: 0;left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #0f0;
+  display: block;
+  margin-top: -2px;
 }
